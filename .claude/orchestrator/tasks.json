@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    {
+      "id": "TASK-001",
+      "title": "Initialiser le frontend",
+      "agent": "frontend",
+      "depends_on": [],
+      "status": "pending"
+    },
+    {
+      "id": "TASK-002",
+      "title": "Initialiser le backend",
+      "agent": "backend",
+      "depends_on": [],
+      "status": "pending"
+    },
+    {
+      "id": "TASK-003",
+      "title": "Créer le modèle Product",
+      "agent": "backend",
+      "depends_on": ["TASK-002"],
+      "status": "pending"
+    },
+    {
+      "id": "TASK-004",
+      "title": "Créer le modèle Price",
+      "agent": "backend",
+      "depends_on": ["TASK-003"],
+      "status": "pending"
+    }
+  ]
+}
