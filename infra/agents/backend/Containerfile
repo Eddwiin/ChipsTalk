@@ -1,0 +1,15 @@
+FROM python:3.13-bookworm
+
+RUN apt-get update && \
+    apt-get install -y git curl ca-certificates && \
+    rm -rf /var/lib/apt/lists/*
+
+WORKDIR /workspace
+
+RUN pip install --no-cache-dir uv
+
+RUN curl -fsSL https://claude.ai/install.sh | bash
+
+ENV PATH="/root/.local/bin:$PATH"
+
+CMD ["bash"]
