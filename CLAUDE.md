@@ -1,11 +1,7 @@
-# CLAUDE.md
+# FinAlly Project - the Finance Ally
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+All project documentation is in the `planning` directory.
 
-## Project status
+The key document is PLAN.md included in full below; the market data component has been completed and is summarized in the file `planning/MARKET_DATA_SUMMARY.md` with more details in the `planning/archive` folder. Consult these docs only when required. The remainder of the platform is still to be developed.
 
-This repository ("ChipsTalk") is currently empty aside from JetBrains IDE metadata (`.idea/`). There is no source code, build configuration, README, or test suite yet.
-
-When code is added to this project, update this file with:
-- Build, lint, and test commands (including how to run a single test)
-- The high-level architecture and structure once it emerges
+@planning/PLAN.md
